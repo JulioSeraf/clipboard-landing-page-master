@@ -11,42 +11,71 @@
 - Grayish Blue: hsl(201, 11%, 66%)
  */
 *{
+    padding: 0;
     margin: 0;
     font-family: 'Bai Jamjuree', sans-serif;
-}
-html{
-    background-color: black;
-   
-}
-body{
-    background-color: white;
-    width: clamp(375px,100%,2000px);
-}
 
+}
 header{
     background-image: url(images/bg-header-desktop.png);
     background-attachment:scroll;
     background-size: cover;
     background-position: center center;
-    height: 350px;
-}
-#header{
+    height: 30%;
     text-align: center;
-    margin: auto;
-    border: 1px solid black;
+    padding-bottom: 100px;
 }
 header > img{
-    padding-top: 30px;
+    padding: 80px 0 25px 0;
 }
-#header > h1{
-    font-size:;
-    padding: 30px 0 20px 0;
+header > h1{
+    font-size:3rem;
+    padding: 0 0 20px 0;
 }
-#header > p {
-    font-size: 1rem;
+header > p {
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    
+}
+.but-iso{
+    margin: auto 20px 10px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 10px black;
+    width: 230px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #26BBA4;
+    font-size: 1em;
+}
+.but-iso a, .but-mac a{
+    text-decoration: none;
+    color: white;
+}
+.but-mac{
+    margin: auto;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 10px black;
+    width: 230px;
+    padding: 10px;
+    background-color: #103bbc;
+    font-weight:bold;
+    font-size: 1em;
+
+}
+.but-iso:hover, .but-mac:hover{
+    transform: translate(3px, 3px);
+    width: 250px;
+    box-shadow: 0 0 20px black;
+}
+main{
+    text-align: center;
 }
 
-
+.img{
+    width:50vw;
+}
 footer{
     background-color: lightblue;
     text-align: center;
