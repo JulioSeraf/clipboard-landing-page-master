@@ -1,7 +1,30 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+/* ### Primary
+
+- Strong Cyan: hsl(171, 66%, 44%)
+- Light Blue: hsl(233, 100%, 69%)
+
+### Neutral
+
+- Dark Grayish Blue: hsl(210, 10%, 33%)
+- Grayish Blue: hsl(201, 11%, 66%)
+ */
 *{
     margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
+header{
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    text-align: center;
+    height: 56vh;
+
+}
+p > header{
+    width: 50vw;
+}
+
 footer{
     background-color: lightblue;
     text-align: center;
