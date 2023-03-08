@@ -38,10 +38,10 @@ header > p {
     
 }
 .but-iso{
-    margin: auto 20px 10px;
+    margin:20px 10px;
     border-radius: 30px;
     border: none;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px rgb(14, 1, 1);
     width: 230px;
     padding: 10px;
     font-weight: bold;
@@ -72,10 +72,26 @@ header > p {
 main{
     text-align: center;
 }
-
-.img{
-    width:50vw;
+main  h2{
+    font-size:1.8em;
 }
+ main  h3{
+    font-size: 1.2em;
+ }
+ main > p{
+    margin: auto;
+    min-width:300px;
+    width: 50vw;
+    padding: 10px;
+    
+ }
+ section#desktop{}
+    
+.img{
+    width:clamp(330px, 50%, 1440px);
+    padding: 50px 0;  
+ }
+
 footer{
     background-color: lightblue;
     text-align: center;
