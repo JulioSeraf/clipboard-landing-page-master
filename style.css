@@ -85,7 +85,18 @@ main  h2{
     padding: 10px;
     
  }
- section#desktop{}
+ section#desktop{ 
+    width: 100vw;
+    border: 1px solid black;
+    float: left; 
+
+ }
+ #desktop div{
+    text-align: left;
+    min-width: 300px;
+    width: 30vw;
+    border: 1px solid black;
+ }
     
 .img{
     width:clamp(330px, 50%, 1440px);
