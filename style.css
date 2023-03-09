@@ -85,19 +85,21 @@ main  h2{
     padding: 10px;
     
  }
- section#desktop{ 
+ #desktop{
     width: 100vw;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(600px, 1fr));
     border: 1px solid black;
-    float: left; 
-
+    gap: 30px;
  }
  #desktop div{
-    text-align: left;
-    min-width: 300px;
-    width: 30vw;
-    border: 1px solid black;
- }
     
+    border: 1px solid black;
+
+ }
+.ig{
+    width:clamp(300px,100%,1440px);
+}
 .img{
     width:clamp(330px, 50%, 1440px);
     padding: 50px 0;  
