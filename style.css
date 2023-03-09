@@ -86,24 +86,36 @@ main  h2{
     
  }
  #desktop{
-    width: 100vw;
+    width: 98vw;
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
     border: 1px solid black;
     gap: 30px;
  }
- #desktop div{
-    
+ #desktop #div1{
     border: 1px solid black;
-
+    text-align:left ;   
  }
-.ig{
-    width:clamp(300px,100%,1440px);
-}
+ #desktop #div1 h3{
+    padding-bottom: 5px;
+ }
+ #desktop #div1 p {
+    padding-bottom: 60px;
+ }
+
+
 .img{
-    width:clamp(330px, 50%, 1440px);
+    width:clamp(330px, 50vw, 1440px);
     padding: 50px 0;  
  }
+ #workflow{
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    border: 1px solid black;
+    gap: 30px;
+ }
+  #workflow #divfull{
+ }
+
 
 footer{
     background-color: lightblue;
