@@ -4,22 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" ">
   
   <title>Frontend Mentor | Clipboard landing page</title>
- <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
 
   <header>
-      <img src="images/logo.svg" alt="logo svg">
-        <h1>A history of everything you copy</h1>
-        <p>
-          Clipboard allows you to track and organize everything you
-          copy. Instantly <br> access your clipboard on all your devices.
-        </p><br>
+      <div>
+          <img src="images/logo.svg" alt="logo svg">
+          <h1>A history of everything you copy</h1>
+          <p>
+            Clipboard allows you to track and organize everything you
+            copy. Instantly access your clipboard on all your devices.
+          </p>
+      </div>
+      <nav>
         <button class="but-iso" ><a href="#" download="#" type="#" >Download for iOS</a></button>
         <button class="but-mac"><a href="#" download="#" type="#">Download for Mac</a></button>
+      </nav>
   </header>
 
   <main>
@@ -42,16 +46,16 @@
       </div>
       
     </section>
+    <section id="clipboard">
       
       <h2>Access Clipboard anywhere</h2>
-
       <p>
         Whether you’re on the go, or at your computer, you can access all your Clipboard
         snippets in a few simple clicks.
-      </p>  
+      </p>
         <img class="img" src="images/image-devices.png" alt="image-devices">
-     
-        
+      
+    </section>
       <section id="workflow">
         <h2>Supercharge your workflow</h2>
         <p>We’ve got the tools to boost your productivity.</p>
@@ -72,19 +76,24 @@
           <p>Quick preview of all snippets on your Clipboard for easy access.</p>
         </div>
       </section>
-      <img class="imgfoot" src="images/logo-google.png" alt="logo-google">
-      <img class="imgfoot" src="images/logo-ibm.png" alt="logo-ibm">
-      <img class="imgfoot" src="images/logo-microsoft.png" alt="logo-microsoft">
-      <img class="imgfoot" src="images/logo-hp.png" alt="logo-hp">
-      <img class="imgfoot"src="images/logo-vector-graphics.png" alt="logo-vector-graphics">
+      <section id="final">
+        <img class="imgfoot" src="images/logo-google.png" alt="logo-google">
+        <img class="imgfoot" src="images/logo-ibm.png" alt="logo-ibm">
+        <img class="imgfoot" src="images/logo-microsoft.png" alt="logo-microsoft">
+        <img class="imgfoot" src="images/logo-hp.png" alt="logo-hp">
+        <img class="imgfoot"src="images/logo-vector-graphics.png" alt="logo-vector-graphics">
+        
+        <h2>Clipboard for iOS and Mac OS</h2>
+        <p>
+          Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+          and you’re ready to start adding to your clipboard.
+        </p>
+        <nav>
+          <button class="but-iso"><a href="#" download="#" type="#">Download for iOS</a></button>
+          <button class="but-mac"><a href="#" download="#" type="#">Download for Mac</a></button>
+        </nav>
+      </section>
       
-      <h2>Clipboard for iOS and Mac OS</h2>
-      <p>
-        Available for free on the App Store. Download for Mac or iOS, sync with iCloud
-        and you’re ready to start adding to your clipboard.
-      </p>
-      <button class="but-iso"><a href="#" download="#" type="#">Download for iOS</a></button>
-      <button class="but-mac"><a href="#" download="#" type="#">Download for Mac</a></button>
   </main>
   
 
